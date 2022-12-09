@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/d5e70788ab.js" crossorigin="anonymous"></script>
+    <style>
+        .foto-perfil {
+            height: 100;
+            width: auto;
+            max-width: 100%;
+            border-radius: 50%;
+        }
+        .corPrimaria {
+            background-color: #18bc9c;
+        }
+        .corSecundaria {
+            background-color: #2c3e50;
+        }
+        p {
+            font-family:Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            color: black !important;
+        }
+        .icones {  
+            padding-left: 5px;
+    }
+        .titulosBrancos{
+           text-decoration: underline;
+            text-underline-position: below;
+            padding-bottom: 20px;
+            text-transform: uppercase;
+            font-weight: 700;
+            color: white;
+        }
+        .titulosVerdes{
+           text-decoration: underline;
+            text-underline-position: below;
+            padding-bottom: 20px;
+            text-transform: uppercase;
+            font-weight: 700;
+            color: #18bc9c;
+        }
+        .textoBranco{
+            color: white !important;
+        }
+        .jubotron{
+            margin-bottom:0px;
+        }
+        .textFooter{
+            margin: 0px;
+            padding-top: 15px;
+            padding-bottom: 15px;
+        }
+        html{
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="corSecundaria navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand textoBranco" href="#">Robert Eduge Guimarães</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link textoBranco" href="#projetos">Projetos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link textoBranco" href="#sobre-mim">Sobre mim</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link textoBranco" href="#depoimentos">Depoimentos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link textoBranco" href="#contato">Contato</a>
+                    </li>
+
+                </ul>
+            </div>
+        </nav>
+    <section class="jumbotron text-center corPrimaria">
+        <div class="container">
+            <img class="foto-perfil"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRC9yt23b9COEfbjONTG0AmM1CSVijovxBN6W5Q-X7VHJZqzcXEf2Mmu9OZihi5CcjnIY0&usqp=CAU"
+                alt="">
+            <h1 class="jumbotron-heading textoBranco">Robert Eduge Guimarães</h1>
+            <p class="lead textoBranco">Tecnólogo em Gestão em Sistemas de Informação - MBA em Data Science Analytcs -
+                Software Developer</p>
+            <p>
+                <a href="https://api.whatsapp.com/send?phone=5581985413081" class="btn btn-dark my-2" >Contato</a>
+            </p>
+            <a href="https://www.linkedin.com/in/roberteduge/"> <i class="textoBranco icones fab fa-linkedin"></i></a>
+            <a href="https://github.com/benifp4/robert.eduge.git"> <i class="textoBranco icones fab fa-github"></i></a>
+        </div>
+    </section>
+    <div class="album py-5 bg-light" id="projetos">
+        <div class="container">
+            <h2 class="jumbotron-heading text-center titulosVerdes">Projetos</h2>
+                    <div class="row">
+                <div class="col-md-6">
+                    <div class="card mb-4 box-shadow">
+                        <img class="card-img-top"
+                            data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
+                            alt="Miniatura [100%x225]" style="height: 100%; width: 100%; display: block;"
+                            src="Portifolio.jpg"
+                            data-holder-rendered="true" _mstalt="307086">
+                        <div class="card-body">
+                            <p class="card-text" _msthash="1937507" _msttexthash="10545197">Ferramentas Utilisadas.</p>
+                            <ul>
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>Bootstrap</li>
+                            </ul>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <a href="link do projeto"><button type="button"
+                                            class="btn btn-sm btn-outline-success" _msthash="3235427"
+                                            _msttexthash="61152">Ver projeto</button></a>
+                                    <a href="link do código"><button type="button"
+                                            class="btn btn-sm btn-outline-primary" _msthash="3235609"
+                                            _msttexthash="75699">Código</button></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card mb-4 box-shadow">
+                        <img class="card-img-top"
+                            data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
+                            alt="Miniatura [100%x225]" style="height: 100%; width: 100%; display: block;"
+                            src="Confeitaria.jpg"
+                            data-holder-rendered="true" _mstalt="307086">
+                        <div class="card-body">
+                            <p class="card-text" _msthash="1937507" _msttexthash="10545197">Ferramentas que utilizei.</p>
+                            <ul>
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>JS</li>
+                            </ul>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <a href="https://sites.google.com/view/vanessasoaresconfeitaria"><button type="button"
+                                            class="btn btn-sm btn-outline-success" _msthash="3235427"
+                                            _msttexthash="61152">Ver projeto</button></a>
+                                    <a href="link do código"><button type="button"
+                                            class="btn btn-sm btn-outline-primary" _msthash="3235609"
+                                            _msttexthash="75699">Código</button></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Sobre Mim-->
+    <section class="jumbotron text-center corPrimaria" id="sobre-mim">
+        <div class="container">
+            <h2 class="jumbotron-heading titulosBrancos">Sobre Mim</h2>
+            <p class="load textoBranco"> Trabalho na área de TI desde os 16 anos onde comecei na SAD-PE como estagiário de suporte em informática. Sempre gostei de tecnologia, fiz diversos cursos na área e ainda busco mais conhecimento neste seguimento. Hoje sou graduado em Gestão de Sistemas de Informação e estou cursando MBA em DSA pela USP, sempre à procura de oportunidades para aprimorar minhas habilidades, aumentar ainda mais os meus conhecimentos e adquirir mais experiência. Superando cada novo desafio, sempre com muito esforço, dedicação, determinação e sede de aprender. 
+                No momento sou um entusiasta em ciência e análise de dados, estou gostando muito de aprender cada dia mais sobre essa temática e a infinidade de aplicações envolvendo dados.</p>
+        </div>
+    </section>
+      <!--Depoimentos-->
+    <section class="jumbotron text-center" id="depoimentos">
+        <div class="container">
+            <h2 class="jubotron-heading text-center titulosVerdes">
+                Depoimentos
+            </h2>
+            <figure class="text-center">
+                <blockquote class="blockquote">
+                  <p>Profissional exeletente, criou o site da minha empresa do jeitinho que eu queria, personalizou minha página do Instagram o que me proporcionou mais seguidores e contados para encomendas, paciente sempre me explicando tudo nos mínimos detalhes e de uma forma que até mesma eu, sem experiência no assunto conseguisse entender perfeitamente.</p>
+                </blockquote>
+                <figcaption class="blockquote-footer">
+                  Proprietário(a) <cite title="Source Title">Vanessa Soares Confeitaria</cite>
+                </figcaption>
+              </figure>
+        </div>
+    </section>
+      <!--Contato-->
+      <section class="corPrimaria" id="contato">
+        <div class="container-fluid">
+            <h3 style="padding-top:60px;" class="text-center titulosBrancos">Disponível para oportunidades</h3>
+            <a href="mailto:robert.eduge@gmail.com"><h4 style="padding-bottom:60px; margin-bottiom:0px;"class="text-center">robert.eduge@gmail.com</h4></a>
+        </div>
+      </section>
+        <!--Footer-->
+        <footer class="text-center corSecundaria textFooter">
+            <p class="textoBranco">Copyright 2022 EDUGETI</p>
+        </footer>
+</body>
+</html>
